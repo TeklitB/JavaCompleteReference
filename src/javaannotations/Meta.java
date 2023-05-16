@@ -11,11 +11,11 @@ import java.lang.reflect.*;
     int val();
 }
 
-public class AnnotationExample {
+public class Meta {
     // Annotate a method.
     @MyAnno(str = "Annotation Example", val = 100)
     public static void myMeth() {
-        AnnotationExample obj = new AnnotationExample();
+        Meta obj = new Meta();
         // Let's obtain the annotation for this method and display the values of the members.
         try {
             // First, get a Class object that represents this class.
