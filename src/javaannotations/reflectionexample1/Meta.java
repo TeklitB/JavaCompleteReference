@@ -1,4 +1,4 @@
-package javaannotations;
+package javaannotations.reflectionexample1;
 
 import java.lang.annotation.*;
 import java.lang.reflect.*;
